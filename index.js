@@ -55,3 +55,5 @@ app.put('/items/:id', async (req, res) => {
 app.listen(3300,()=>{
     console.log("server running on port 3300")
 })
+
+module.exports = app
